@@ -3,6 +3,7 @@
 2、css 样式由选择符和声明组成，而声明又由属性和值组成。选择符：又称选择器，指明网页中要应用样式规则的元素；
    其中，声明：在英文大括号“｛｝”中的的就是声明，属性和值之间用英文冒号“：”分隔。当有多条声明时，中间可以英文分号“;”分隔；
 3、最后一条声明可以没有分号，但是为了以后修改方便，一般也加上分号。
+4、就像在Html的注释一样，在CSS中也有注释语句：用/*注释语句*/来标明（Html中使用<!--注释语句-->)。
 
 <!DOCTYPE html>
 <html>
@@ -10,6 +11,7 @@
 		<meta http-equiv="content-type" content="text/html charset=utf-8">
 		<title>css练习</title>
 		<style style="text/css">
+		       /*这是一段注释*/
 			qd{
 				color:red;
 			}
