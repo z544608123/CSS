@@ -1,0 +1,5 @@
+css的一些总结：
+
+1、设置样式时，使用 style=""，或者<style></style>
+css样式代码要写在style=""双引号中，如果有多条css样式代码设置可以写在一起，中间用分号隔开。
+e.g: <p style="color:red;font-size:12px">这里文字是红色。</p>
