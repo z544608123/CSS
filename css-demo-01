@@ -1,0 +1,21 @@
+1、CSS全称为“层叠样式表 (Cascading Style Sheets)”，它主要是用于定义HTML内容在浏览器内的显示样式，如文字大小、颜色、字体加粗等。
+
+2、css 样式由选择符和声明组成，而声明又由属性和值组成。选择符：又称选择器，指明网页中要应用样式规则的元素；
+   其中，声明：在英文大括号“｛｝”中的的就是声明，属性和值之间用英文冒号“：”分隔。当有多条声明时，中间可以英文分号“;”分隔；
+3、最后一条声明可以没有分号，但是为了以后修改方便，一般也加上分号。
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html charset=utf-8">
+		<title>css练习</title>
+		<style style="text/css">
+			qd{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		    <p>慕课网，<qd>超酷的互联网</qd>、IT技术免费学习平台，创新的网络一站式学习、实践体验；<qd>服务及时贴心</qd>，内容专业、<qd>有趣易学</qd>。专注服务互联网工程师快速成为技术高手！</p>
+	</body>
+</html>
