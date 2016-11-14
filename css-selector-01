@@ -1,0 +1,31 @@
+1、标签选择器
+    其实就是html代码中的标签。如<html>、<body>、<h1>、<p>、<img>。
+    
+2、类选择器
+    .类选器名称{css样式代码;}
+    
+<!--1、去除h1的字体加粗-->
+<!--2、将公开课改为紫色-->
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta http-equiv="content-type" content="text/html charset=utf-8">
+    	<style type="text/css">
+    		h1{
+    			font-weight:normal;
+    			color:red;
+    		}
+    		.stress{
+    			color:red;
+    		}
+    		.setOrange{
+    			color:Orange;
+    		}
+    	</style>
+    </head>
+	<body>
+		<h1>勇气</h1>
+    <p>三年级时，我还是一个<span class="stress">胆小如鼠</span>的小女孩，上课从来不敢回答老师提出的问题，生怕回答错了老师会批评我。就一直没有这个<span class="stress">勇气</span>来回答老师提出的问题。学校举办的活动我也没勇气参加。</p>
+    <p>到了三年级下学期时，我们班上了一节<span class="setOrange">公开课</span>，老师提出了一个很简单的问题，班里很多同学都举手了，甚至成绩比我差很多的，也举手了，还说着："我来，我来。"我环顾了四周，就我没有举手。</p>
+	</body>
+</html>
