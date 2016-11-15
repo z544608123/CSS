@@ -1,0 +1,44 @@
+1、包含(后代)选择器
+包含选择器，即加入空格,用于选择指定标签元素下的后辈元素。如右侧代码编辑器中的代码：
+.first  span{color:red;}
+
+请注意这个选择器与子选择器的区别，子选择器（child selector）仅是指它的直接后代，作用于子元素的第一代后代。而后代选择器是作用于所有子后代元素。
+后代选择器通过空格来进行选择，而子选择器是通过“>”进行选择。
+
+总结：>作用于元素的第一代后代，空格作用于元素的所有后代。
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html charset=utf-8">
+		<style>
+			.food>li{
+			     border:1px solid red;
+		    }
+		    .setRed span{
+		    	border:1px solid red;
+		    }
+		</style>
+
+	</head>
+	<body>
+		<p class="setRed">三年级时，我还是一个<span>胆小如鼠</span>的小女孩，上课从来不敢回答老师提出的问题，生怕回答错了老师会批评我。就一直没有这个勇气来回答老师提出的问题。<span>学校</span>举办的活动我也没勇气参加。</p>
+		<ul class="food">
+			<li>水果
+				<ul>
+					<li>香蕉</li>
+					<li>苹果</li>
+					<li>梨</li>
+				</ul>
+			</li>
+			<li>蔬菜
+				<ul>
+					<li>白菜</li>
+					<li>油菜</li>
+					<li>卷心菜</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
