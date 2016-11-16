@@ -1,0 +1,19 @@
+水平居中
+1、行内元素： text-align:center；
+2、定宽块状元素：满足定宽和块状两个条件的元素是可以通过设置“左右margin”值为“auto”来实现居中的。
+          e.g: width:200px;/*定宽*/
+               margin:20px auto;/* margin-left 与 margin-right 设置为 auto */              
+3、不定宽块状元素：有三种方式
+   （1）table    margin:0 auto;
+   （2）display:inline;  text-align:center;
+   （3）float  父元素设置 float:left;position:relative;left:50%，子元素设置 position:relative 和 left: -50% 来实现水平居中。
+               左边left:-50%;右移left:50%;
+   
+   
+垂直居中
+1、父元素高度确定的单行文本：设置父元素的 height 和 line-height 高度一致来实现的
+
+2、父元素高度确定的多行文本：
+   （1）使用table,vertical-align：middle
+   （2）display:table-cell;
+        vertical-align:middle;
