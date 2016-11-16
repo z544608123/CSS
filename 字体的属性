@@ -1,0 +1,11 @@
+    font-style:italic;
+    font-variant:small-caps; （大小写）
+    font-weight:bold; 
+    font-size:12px; 
+    line-height:1.5em; 
+    font-family:"宋体",sans-serif;
+tips：    
+1、使用这一简写方式至少要指定 font-size 和 font-family 属性，
+其他的属性(如 font-weight、font-style、font-varient、line-height)如未指定将自动使用默认值。
+2、在缩写时 font-size 与 line-height 中间要加入“/”斜扛。
+3、简写时，使用空格隔开
