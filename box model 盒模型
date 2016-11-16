@@ -25,3 +25,6 @@
 4、如果只为边框的一个面设置，可以使用 border-bottom border-top border-right border-left
 
 5、计算盒子模型的宽度：内容宽度（width）+左填充（padding-left）+左边框（border-left）+左边界（margin-left）+右边...
+
+6、盒模型代码简写 中间用空格隔开
+
