@@ -1,0 +1,27 @@
+关于盒模型的总结：
+1、块级标签都具备盒模型的特点；
+2、padding    margin    border  
+
+3、border：
+  盒子模型的边框就是围绕着内容及补白的线，这条线可以设置它的粗细、样式和颜色(边框三个属性)。
+  如下面代码为 div 来设置边框粗细为 2px、样式为实心的、颜色为红色的边框：
+  div{
+      border:2px  solid  red;
+   }
+  上面是 border 代码的缩写形式，可以分开写：
+  div{
+      border-width:2px;
+      border-style:solid;
+      border-color:red;
+   }
+      注意：
+      (1)border-style（边框样式）常见样式有：
+      dashed（虚线）| dotted（点线）| solid（实线）。
+      (2)border-color（边框颜色）中的颜色可设置为十六进制颜色，如:
+      border-color:#888;//前面的井号不要忘掉。
+      (3)border-width（边框宽度）中的宽度也可以设置为：
+      thin | medium | thick（但不是很常用），最常还是用象素（px）。
+      
+4、如果只为边框的一个面设置，可以使用 border-bottom border-top border-right border-left
+
+5、计算盒子模型的宽度：内容宽度（width）+左填充（padding-left）+左边框（border-left）+左边界（margin-left）+右边...
