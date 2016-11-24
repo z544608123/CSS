@@ -1,0 +1,26 @@
+1、利用margin实现水平居中
+   语句：margin:0px auto;
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<style>
+		#container{
+			width:1000px;
+			height:200px;
+			margin:0px auto;
+			background:black;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+</body>
+</html>
+
+2、margin设置边距时，相邻“普通元素”的“上下边距”margin取两者的最大值。
+  e.g:  margin-top:100px;
+        margin-bottom:80px;
+  则两个div之间的间距为100px。
