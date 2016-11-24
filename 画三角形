@@ -1,0 +1,34 @@
+思路：
+1、设置盒子大小为边框的大小，即盒子内容的高宽为零--------得到四个三角形
+2、分别设置边框的格式，并将边框的三个边颜色设为透明------留下一个三角形
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>css画三角形</title>
+	<style>
+		#container{
+			height:200px;
+			background: black;
+		}
+		.triangle{
+			margin: 200px;
+			width:0px;
+			height:0px;
+			border-top:100px solid transparent;
+			border-right:100px solid transparent;
+			border-bottom:100px solid pink;
+			border-left:100px solid transparent;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="triangle"></div>
+	</div>
+</body>
+</html>
