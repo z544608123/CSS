@@ -1,0 +1,50 @@
+1、在三角形的基础上进行接下来的布局
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html charset=utf-8">
+		<title>css画圣诞树</title>
+		<style>
+			#container{
+				background:black;
+			}
+			.one{
+				margin-top: -100px;
+				margin-left:350px;
+				width:0px;
+				height:0px;
+				border-top:150px solid transparent;
+				border-right:150px solid transparent;
+				border-bottom:150px solid pink;
+				border-left:150px solid transparent;
+			}
+			.two{
+				margin-top: -200px;
+				margin-left:300px;
+				width:0px;
+				height:0px;
+				border-top:200px solid transparent;
+				border-right:200px solid transparent;
+				border-bottom:200px solid pink;
+				border-left:200px solid transparent;
+			}
+			.three{
+				margin-left:450px;
+				width:0px;
+				height:1px;
+				border-top:100px solid pink;
+				border-right:100px solid pink;
+				border-bottom:100px solid pink;
+				border-left:10px solid pink;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="one"></div>
+			<div class="two"></div>
+			<div class="three"></div>
+		</div>
+	</body>
+</html>
