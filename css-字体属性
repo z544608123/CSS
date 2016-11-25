@@ -1,0 +1,23 @@
+    font-style:italic;
+    font-variant:small-caps; （大小写）
+    font-weight:bold; 
+    font-size:12px; 
+    line-height:1.5em; 
+    font-family:"宋体",sans-serif;
+tips：    
+1、使用这一简写方式至少要指定 font-size 和 font-family 属性，
+其他的属性(如 font-weight、font-style、font-varient、line-height)如未指定将自动使用默认值。
+2、在缩写时 font-size 与 line-height 中间要加入“/”斜扛。
+3、简写时，使用空格隔开
+4、字体类型中，存在“有衬线（serif）”、“无衬线（sans-serif）”，新闻标题使用无衬线，内容使用有衬线
+
+
+
+在设置字体样式时，可以使用font{}简写，顺序：
+font-style | font-variant | font-weight | font-size | line-height | font-family
+  字体样式      字母大小写     字体加粗      字体大小      行间距         字体类型  
+注意：
+1、font-size和line-height只能通过斜杠/组成一个值，不能分开写。
+ 
+2、顺序不能改变.这种简写方法只有在同时指定font-size和font-family属性时才起作用。
+   而且，如果没有设定font-weight, font-style, 以及 font-varient ，他们会使用缺省值
