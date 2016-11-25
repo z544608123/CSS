@@ -1,0 +1,8 @@
+背景的属性：
+1、background-color                           颜色
+2、background-image：url(图片位置)             背景图片
+3、background-repeat：repeat-x|no-repeat      背景图片是否覆盖整个屏幕
+4、background-attachment：fixed               背景图像固定与否
+
+简写：
+background：color image repeat attachment position
