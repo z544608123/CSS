@@ -1,4 +1,4 @@
 1、块级元素：<h1><p><div><form><ul><ol><li>
 2、内联元素：<a><span><em><label><strong>
-3、内联块级元素：<img><input>
+3、内联块级元素：<img><input><textarea><select><object>，又叫替换元素
 4、导航栏---内联转块状最常见
