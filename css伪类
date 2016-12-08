@@ -1,0 +1,37 @@
+css允许为a标签的四种状态设置各自的css特性，叫做css伪类。
+针对一个链接，其包含了四种状态：鼠标未放置的普通状态、鼠标放置到链接处、鼠标点击链接的瞬间、点击完成。
+对应                                 a / a:link       a:hover          a:active     a:visited
+四个的顺序：LVHA
+a:actived一般不写
+a:link可以简写为a
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>锚点</title>
+	<style>
+		a{
+			color:gray;
+		}
+		a:visited{
+			color:orange;
+		}
+		a:hover{
+			color:blue;
+		}
+		a:active{
+			color:red;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<a href="#">空链接</a>
+		<a href="#">空链接</a>
+		<a href="#">空链接</a>
+		<a href="#">空链接</a>
+		<a href="#">空链接</a>
+	</div>
+</body>
+</html>
